@@ -1,15 +1,16 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
+
+vector<int> v{0};
 
 int main()
 {
 
-    char k = 0;
-    for (char i = 0; i < 10; i++, k++)
-    {
-        cout << int(k);
-    }
+    cout << v.back() << " ";
+    v.back()++;
+    cout << v.back();
 
     while (true)
     {
